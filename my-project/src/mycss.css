@@ -1,0 +1,14 @@
+:root {
+  --background-color: #fff; /* default white background color */
+  --text-color: #333; /* default dark text color */
+}
+
+body.dark-mode {
+  --background-color: #333; /* dark background color */
+  --text-color: #fff; /* light text color */
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
